@@ -14,10 +14,10 @@ public enum DuongXinyuEnum {
     }
 
     public boolean isDuong() {
-        return this.name == "Duong";
+        return this.name.equals("Duong");
     }
 
     public boolean isXinyu() {
-        return this.name == "Xinyu";
+        return this.name.equals("Xinyu");
     }
 }
